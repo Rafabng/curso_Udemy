@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv=”X-UA-Compatible” content=”IE-Edge”>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício de Formulários</title>
+</head>
+<body>
+
+    <h1>Exercício de Formulários</h1>
+    
+    <form action="" method="get">
+
+    <fieldset>
+        <legend>Dados pessoais</legend>
+
+        <label for="nome">Nome</label><br>
+        <input type="text" name="nome" id="nome"><br>
+
+        <label for="email">Email</label><br>
+        <input type="text" name="email" id="email"><br>
+
+        <input type="checkbox" name="recebeEmail" id="recebeEmail" value="ativado">
+        <label for="recebeEmail">Quero receber e-mail</label>
+
+        <br><br>
+
+        <label for="senha">Senha</label><br>
+        <input type="password" name="senha" id="senha"><br>
+    </fieldset>
+
+    <fieldset>
+        <legend>Informações adicionais</legend>
+
+        <input type="radio" name="tipo" id="pf" value="PF">
+        <label for="pf">Pessoa Física</label>
+
+        <input type="radio" name="tipo" id="pj" value="PJ">
+        <label for="pj">Pessoa Jurídica</label>
+    </fieldset>
+
+    </form>
+
+    <br>
+
+    <input type="submit" name="cadastrar" value="Cadastrar">
+</body>
+</html>

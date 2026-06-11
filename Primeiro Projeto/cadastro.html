@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Cadastro</title>
+    </head>
+    <body>
+        <h2>Fazer Login</h2>
+        <form>
+
+            <label for="login">Login:</label>
+            <input type="text" size="25" name="login" id="login" placeholder="Digite seu nome de usuário"><br><br>
+
+            <label for="senha1">Senha:</label>
+            <input type="password" size="25" name="senha1" id="senha1" placeholder="Digite sua senha"><br><br>
+
+            <input type="button" value="Logar"><br>
+
+        </form>
+
+        <br><hr>
+        
+        <h2>Cadastro</h2>
+            <form action="sucessoCadastro.html" method="get">
+                <fieldset>
+                    <legend>Dados Pessoais</legend>
+                    <label for="nomeCompleto">Nome Completo:</label>
+                    <input type="text" size="25" name="nomeCompleto" id="nomeCompleto">
+                    
+                    <label for="email">Email:</label>
+                    <input type="text" size="30" name="email" id="email"><br><br>
+
+                    <label for="senha">Senha:</label>
+                    <input type="text" size="25" name="senha" id="senha"><br><br>
+
+                    Sexo:<br>
+                    <input type="radio" name="sexo" value="M" id="masc">
+                    <label for="masc">Masculino</label><br>
+                    <input type="radio" name="sexo" value="F" id="fem">
+                    <label for="fem">Feminino</label><br>
+
+                    Interesses<br>
+                    <input type="checkbox" name="interesses" id="futebol">
+                    <label for="futebol">Futebol</label><br>
+
+                    <input type="checkbox" name="interesses" id="cinema">
+                    <label for="cinema">Cinema</label><br>
+
+                    <input type="checkbox" name="interesses" id="tecnologia">
+                    <label for="tecnologia"> Tecnologia</label><br>
+
+                    <input type="checkbox" name="interesses" id="moda">
+                    <label for="moda">Moda</label><br>
+
+                    <input type="checkbox" name="interesses" id="musica">
+                    <label for="musica">Música</label><br><br>
+
+
+                    Estado: <br>
+                    <select name="estado">
+                        <option>Selecione...</option>
+                        <option value="sp">SP</option>
+                        <option value="sc">SC</option>
+                        <option value="rs">RS</option>
+                        <option value="pr">PR</option>
+                        <option value="rj">RJ</option>
+                        <option value="es">ES</option>
+                        <option value="mg">MG</option>
+                    </select>
+
+                </fieldset><br>
+
+                <label for="observacoes">Observações</label><br>
+                <textarea name="observacoes" id="observacoes"></textarea>
+                
+                <br><br>
+
+                <label for="arquivos">Enviar arquivos:</label>
+                <input type="file" name="arquivos" id="arquivos">
+
+                <br><br>
+
+                <input type="submit" value="cadastrar">
+
+            </form>
+
+
+
+        <h2>Links Úteis:</h2>
+        <ul>
+            <li><a href="index.html">Página Inicial</a></li>
+            <li><a href="cadastro.html">Página de Cadastro</a></li>
+            <li><a href="projeto.html">Página do Projeto</a></li>
+            <li><a href="">Tabelas</a></li>
+            <li><a href="testesCSS.html">Testes CSS</a></li>
+        </ul>
+    </body>
+</html>
